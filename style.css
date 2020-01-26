@@ -1,158 +1,153 @@
-    /* Checkpoint2.0 Website */
-/*
-* {a
+    /* Checkpoint2.1 Website */
+
+    /*
+* 
     outline: solid black;
 }
 */
 
-body
-{
-    position:absolute;
-    top:0;
-    z-index:-1;
-}
+    body {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
 
-.btn-center {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 7vh;
-}
+    .btn-center {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 7vh;
+    }
 
-.btn-header {
-    display: flex;
-    justify-content: center;
-}
+    .btn-header {
+        display: flex;
+        justify-content: center;
+    }
 
-.card-shift {
-    position: relative;
-    top: 7vh;
-}
+    .card-shift {
+        position: relative;
+        top: 7vh;
+    }
 
-.card-features {
-    display: flex;
-    justify-content: center;
-}
+    .card-features {
+        display: flex;
+        justify-content: center;
+    }
 
-.circle {
-    height: 1vh;
-    width: 1vw;
-    border-radius: 50%;
-    background-color: blue;
-    padding: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .circle {
+        height: 1vh;
+        width: 1vw;
+        border-radius: 50%;
+        background-color: blue;
+        padding: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.container-border {
-    border: solid black;
-}
+    .container-border {
+        border: solid black;
+    }
 
-.filler3-style {
-    background-color: lightblue;
-    width: 96.5vw;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .filler3-style {
+        background-color: lightblue;
+        width: 96.5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.footer-style {
-    background-color: royalblue;
-}
+    .footer-style {
+        background-color: royalblue;
+    }
 
-.header-button {
-    background-color: royalblue;
-    color:white;
-    border-radius: 10%;
-}
+    .header-button {
+        background-color: royalblue;
+        color: white;
+        border-radius: 10%;
+    }
 
-.header-custom
-{
-    background:url(diagonal-blue-white_files/blue-gray-diagonal.png) top center no-repeat;
-    width:100%;
-    background-size:100% 100%;
+    .header-custom {
+        background: url(diagonal-blue-white_files/blue-gray-diagonal.png) top center no-repeat;
+        width: 100%;
+        background-size: 100% 100%;
+    }
 
-}
+    .img-center {
+        display: flex;
+        justify-content: center;
+    }
 
-.img-center {
-    display: flex;
-    justify-content: center;
-}
+    .img-circle {
+        border-radius: 50%;
+        height: 6rem;
+        width: 6rem;
+    }
 
-.img-circle {
-    border-radius: 50%;
-    height: 6rem;
-    width: 6rem;
-}
+    .img-taz-center {
+        display: flex;
+        justify-content: center;
+    }
 
-.img-taz-center {
-    display: flex;
-    justify-content: center;
-}
+    .img-taz {
+        height: 15rem;
+    }
 
-.img-taz {
-    height: 15rem;
-}
+    .img-yosemitesam-center {
+        display: flex;
+        justify-content: center;
+    }
 
-.img-yosemitesam-center {
-    display: flex;
-    justify-content: center;
-}
+    .img-yosemitesam {
+        height: 8rem;
+        margin-top: 2%;
+    }
 
-.img-yosemitesam {
-    height: 8rem;
-    margin-top: 2%;
-}
+    .jtron-style {
+        background-color: gray;
+    }
 
-.jtron-style {
-    background-color: gray;
-}
+    .line-break {
+        background-color: black;
+    }
 
-.line-break {
-    background-color: black;
-}
+    .logo-text {
+        font-weight: bolder;
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 1.2em;
+    }
 
-.logo-text {
-    font-weight: bolder;
-    font-family: 'Zhi Mang Xing', cursive;
-    font-size: 1.2em;
-}
+    .logo-text-footer-left {
+        font-weight: bolder;
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 1.2em;
+        text-align: left;
+        color: white;
+    }
 
-.logo-text-footer-left {
-    font-weight: bolder;
-    font-family: 'Zhi Mang Xing', cursive;
-    font-size: 1.2em;
-    text-align: left;
-    color: white;
-}
+    .logo-text-footer-right {
+        font-weight: bolder;
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 1.2em;
+        text-align: right;
+        color: white;
+    }
 
-.logo-text-footer-right {
-    font-weight: bolder;
-    font-family: 'Zhi Mang Xing', cursive;
-    font-size: 1.2em;
-    text-align: right;
-    color: white;
-}
+    .logo-text-nav {
+        font-weight: bolder;
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 1.5em;
+    }
 
-.logo-text-nav {
-    font-weight: bolder;
-    font-family: 'Zhi Mang Xing', cursive;
-    font-size: 1.5em;
-}
+    .main-features {
+        background-color: gold;
+    }
 
-.main-features {
-    background-color: gold;
-}
+    .navbar-custom {
+        background-color: royalblue;
+        color: white;
+    }
 
-.navbar-custom {
-    background-color: royalblue;
-    color: white;
-}
-
-
-
-
-.text-header {
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 45%;
-}
+    .text-header {
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 45%;
+    }
